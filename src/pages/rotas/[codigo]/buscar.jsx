@@ -1,5 +1,5 @@
-import { useRouter } from 'next/router'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function Buscar() {
     const router = useRouter()
@@ -10,9 +10,7 @@ export default function Buscar() {
         <div>
             <h1>Rotas / {codigo} / Buscar!!!</h1>
             <Link href="/rotas">
-                <a>
                     <button>Voltar</button>
-                </a>
             </Link>
         </div>
     )
